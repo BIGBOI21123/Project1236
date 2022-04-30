@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgb(57, 170, 123);
+}
+h1
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 251, 173);
+}
+#Showsketches
+{
+    float: right;
+    margin: auto;
+    font-size: 19px;
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#clears
+{
+    font-size: 20px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    from {box-shadow: 3px 3px rgb(30, 255, 0), -0.4em 0 0.8em rgb(0, 90, 128);}
+    to {box-shadow: 3px 3px rgb(229, 255, 0), -0.4em 0 0.8em rgb(0, 128, 19);}
+}
+
+#SketchtoDraw
+{
+    font-weight: bold;
+    color: blue;
+}
+
+#Timer
+{
+    font-weight: bolder;
+    float: right;
+    margin-right: 70px;
+}
+#Score
+{
+    font-weight: bolder;
+    float: left;
+    margin-left: 30px;
+}
+
+#gs
+{
+    font-weight: bold;
+    color: blue;
+}
